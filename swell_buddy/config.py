@@ -1,0 +1,1 @@
+SPOT = "Costa da Caparica"
