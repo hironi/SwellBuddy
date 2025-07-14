@@ -4,8 +4,9 @@ import json
 def fetch(spot):
     print(f"[*] Fetching surf conditions for {spot}...")
 
-    # Placeholder test URL
-    url = "https://jsonplaceholder.typicode.com/posts/1"
+    # Simulate param-based URL
+    url = f"https://jsonplaceholder.typicode.com/posts/1"
+    print(f"[i] Using URL: {url}")
 
     try:
         response = requests.get(url)
